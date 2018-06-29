@@ -1,0 +1,57 @@
+.container-main{
+    
+    text-align: center;
+}
+
+#head{
+    margin-top:30px;
+    width:250px;
+    
+}
+
+#ant1{
+    vertical-align:top;    
+    height:100px;
+    width:25px;
+    
+}
+#ant2{
+    vertical-align:top; 
+    height:100px;
+    width:25px;
+    
+}
+
+hr{
+    height: 1px;
+    margin:0;
+    width:247px;
+    text-align: center;
+    }
+#body{
+    height:280px;
+    margin-top:1px;
+    width:250px;
+}
+#torso{
+    
+}
+#leg{
+    margin-top:-30px;
+    transition:transform 2s;
+}
+#legl{
+    transform-origin: 0% 0%;
+    margin-left:6px;
+    height:100px;
+    width:25px;
+    transition:transform 2s;
+}
+#legl:hover{
+    transform: rotate(30deg);
+}
+#legr{
+    margin-left:100px;
+    height:100px;
+    width:25px;
+}
